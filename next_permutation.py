@@ -19,5 +19,5 @@ def next_permutation(arr):
         left += 1
         right -= 1
     return arr
-arr = list(map(int, input().split()))
-print(next_permutation(arr))
+val = list(map(int, input().split()))
+print(next_permutation(val))
